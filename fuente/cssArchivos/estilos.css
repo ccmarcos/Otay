@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #e8e8e8;
+	overflow-x: hidden;
+}
+
+.menu {
+	background: #052d47;
+}
+
+.menu ul {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	padding-top: 18px;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: white;
+}
+.menu ul li a:hover {
+	text-decoration: underline;
+}
+.menu .active {
+	text-decoration: underline;
+}
+.contenedorAcerca {
+	width: 95%;
+	margin: 30px auto;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.infoAcerca {
+	width: 50%;
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+.imgAcerca {
+	width: 30%;
+	padding-right: 100px;
+	margin-top: 40px;
+}
+
+.infoAcerca h2 {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.infoOfrecemos h2 {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.infoOfrecemos {
+	width: 50%;
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+.imgOfrecemos {
+	width: 30%;
+	padding-right: 100px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.contenedorPromociones {
+	width: 95%;
+	margin: 30px auto;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.infoPromociones {
+	width: 30%;
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+.infoPromociones2 {
+	width: 40%;
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+.imgPromociones0 {
+	width: 30%;
+	padding-right: 100px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.imgPromociones {
+	/*width: 30%;*/
+	margin-left: 30px;
+	padding-right: 100px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.infoPromociones h2 {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.infoPromociones2 {
+	width: 30%;
+	margin-right: 100px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.infoPromociones2 h2 {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.infoPromociones3 {
+	width: 30%;
+	padding-left: 30px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.infoPromociones3 h2 {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.seccionGaleria {
+	width: 85%;
+	margin: auto;
+	background-color: white;
+	padding-left: 100px;
+}
+.seccionGaleria h2{
+	margin-top: 30px;
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+.seccionContacto {
+	width: 90%;
+	background-color: white;
+	margin: auto;
+	padding-left: 50px;
+	height: 500px;
+}
+.seccionContacto h2 {
+	margin-top: 30px;
+	padding-top: 30px;
+	margin-bottom: 15px;
+}
+.iconos {
+	width: 18%;
+	margin: 100px auto;
+}
+.iconos ul {
+	list-style: none;
+	font-size: 25px;
+}
+.iconos ul li a {
+	text-decoration: none;
+	color: black;
+}
+.iconos ul li {
+	line-height: 70px;
+}
+.iconos ul li i {
+	margin-right: 10px;
+}
